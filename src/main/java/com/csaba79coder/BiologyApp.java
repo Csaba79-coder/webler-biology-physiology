@@ -26,5 +26,9 @@ public class BiologyApp {
         animal.feed();
         animal.setGender("Female");
         System.out.println(animal);
+
+        // extra to play!!!
+        Animal animal1 = new Carnivore("..", 0, new String[] {".."}, "..");
+        Carnivore carnivore = (Carnivore) new Animal("..", 0, new String[] {".."}, "..");
     }
 }
